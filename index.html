@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>chess.con</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="function.js" defer></script>
+  </head>
+  <body onbeforeunload="leavePage()">
+    <div class="people-ready-outer">
+        <div class="people-ready-text">Players Ready: <span id="playersReadySpan">...</span> / 2</div>
+    </div>
+    <button class="ready-button" id="playerReadyUp">
+        <div class="ready-button-text" id="playerReadyUpInner">Ready Up</div>
+    </button>
+  </body>
+</html>
